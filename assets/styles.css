@@ -1,0 +1,57 @@
+/* Fondo general */
+body {
+  background-image: url('../assets/img/open.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.8); /* blanco semi-transparente */
+}
+
+main {
+  
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+
+/* Cards con bordes verdes */
+.card {
+  border: 2px solid #28a745; /* verde */
+  border-radius: 12px;       /* esquinas redondeadas */
+}
+
+/* Navbar toggler en verde */
+.navbar-light .navbar-toggler {
+  border-color: #283ba7; /* borde verde */
+}
+
+/* Marca de la navbar (Alke Wallet) más grande y redondeada */
+.navbar-brand {
+  font-size: 2rem;          /* más grande */
+  font-weight: bold;        /* negrita */
+  font-family: "Segoe UI", Arial, sans-serif;
+  border-radius: 8px;       /* bordes redondeados */
+  padding: 4px 12px;
+  color: #283ba7!important; /* verde */
+}
+
+/* Fondo con imagen para login */
+body.bg-login {
+  background-image: url('../assets/img/side.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+footer{
+
+  background-size: auto;
+  background-position: bottom;
+  background-color: rgb(169, 244, 244);
+  background-size: 300px 100px;
+  font-size: 1rem;          /* más grande */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 8px;       /* bordes redondeados */
+  padding: 4px 12px;
+
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alke Wallet — Panel Principal</title>
+  <link rel="icon" type="image/png" href="assets/img/billetera.png">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Estilos propios -->
+  <link href="assets/styles.css" rel="stylesheet">
+</head>
+<body class="bg-soft-blue">
+
+  <!-- Barra de navegación superior -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand text-primary fw-bold" href="#">Alke Wallet</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <!-- enlaces a otras pantallas -->
+          <li class="nav-item"><a class="nav-link" href="/pages/deposit.html">Depósito</a></li>
+          <li class="nav-item"><a class="nav-link" href="/pages/sendmoney.html">Enviar Dinero</a></li>
+          <li class="nav-item"><a class="nav-link" href="/pages/transactions.html">Movimientos</a></li>
+          <li class="nav-item"><a class="nav-link text-danger" href="/pages/login.html">Cerrar sesión</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="container my-4">
+    <h1 class="h4 text-primary mb-4">Bienvenido/a a tu billetera digital</h1>
+
+    <!-- Tarjeta de saldo -->
+    <div class="card shadow-sm mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Saldo disponible</h5>
+        <!-- Aquí se mostrará dinámicamente el saldo -->
+        <p id="saldoActual" class="fs-4 fw-bold text-primary">$0</p>
+      </div>
+    </div>
+
+    <!-- Accesos rápidos -->
+    <div class="row g-3">
+      <div class="col-md-4">
+        <a href="./pages/deposit.html" class="btn btn-primary w-100">Realizar Depósito</a>
+      </div>
+      <div class="col-md-4">
+        <a href="./pages/sendmoney.html" class="btn btn-primary w-100">Enviar Dinero</a>
+      </div>
+      <div class="col-md-4">
+        <a href="./pages/transactions.html" class="btn btn-primary w-100">Ver Movimientos</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Bootstrap JS + jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Script propio -->
+  <script src="assets/script.js"></script>
+
+  <footer>
+    <br>
+    <h4> Realizado por Jimena Traipe, derechos reservados  © </h4>
+      <br></footer>
+    
+  
+</body>
+</html>
