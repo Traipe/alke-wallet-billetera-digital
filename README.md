@@ -32,24 +32,6 @@ El proyecto fue desarrollado como parte de mi formación en **Front-End Trainee*
 
 ---
 
-## 📂 Estructura del proyecto
-
-Alke_wallet/ 
-  ├── index.html 
-  ├── pages/ │   
-      ├── login.html │   
-      ├── deposit.html │   
-      ├── sendmoney.html │   
-      └── transactions.html 
-  ├── assets/ │   
-      ├── styles.css │   
-      ├── script.js │   
-      └── img/ │       
-          └── side.png
-
-
-
----
 
 ## ▶️ Cómo usar
 1. Clona este repositorio:
